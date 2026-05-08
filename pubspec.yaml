@@ -1,0 +1,54 @@
+name: smartlease_new
+description: "SmartLease Pro - Streamlined Land Leasing"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase (compatible versions)
+  firebase_core: ^3.2.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.1.0
+  firebase_storage: ^12.1.2
+
+  # State Management
+  provider: ^6.1.5
+
+  # Image Picker
+  image_picker: ^1.2.0
+
+  file_picker: ^10.3.3
+
+  # UI Helpers
+  cupertino_icons: ^1.0.8
+  intl: ^0.19.0
+
+  # OpenStreetMap
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.1
+
+  # URL Launcher
+  url_launcher: ^6.3.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/app_icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
